@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Temperature Convertor</title>
+<style type="text/css">
+
+.Back {
+	background-color: #0099CC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+.rlt {
+	background-color: #F9F9F9;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "MS Serif", "New York", serif;
+	color: #000;
+}
+.text {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 24px;
+	color: #000;
+	font-weight: bold;
+}
+.btn {
+	font-size: 24px;
+}
+.res {
+	background-color: #FFFFAC;
+}
+.ctr {
+	text-align: center;
+}
+.cvt {
+	font-size: 18px;
+	color: #000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border: thick outset #333;
+	font-weight: bold;
+}
+.heading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+  <p class="heading">TEMPERATURE CONVERTER</p>
+  <table width="670" height="277" border="1" class="rlt">
+    <tr>
+      <td width="263" class="rlt"><p class="rlt"><span class="text">FROM</span>
+        <select name="select1" class="rlt" id="select1">
+            <option value="c1">Celsius</option>
+            <option value="f1">Fahrenheit</option>
+            <option value="k1">Kelvin</option>
+          </select>
+        </p>
+<input name="input" type="text" class="text ctr" id="input" /></td>
+      <td width="268" class="rlt"><p class="text">TO
+        <select name="select2" class="rlt" id="select2">
+            <option value="c2">Celsius</option>
+            <option value="f2">Fahrenheit</option>
+            <option value="k2">Kelvin</option>
+          </select>
+        </p>
+<input name="result" type="text" class="ctr rlt" id="result" /></td>
+    </tr>
+  </table>
+  <br />
+  <button type="button" class="ctr cvt" title="+" onclick="f()">CONVERT</button>
+</div>
+<script src="method.js"></script>
+
+<br /> <br /> <br /> 
+<br />
+<footer>
+  <p class="ctr">Web Development INTERN @ Info aidTech. </p>
+  <p class="ctr">Sumaira Saeed Awan<br>
+    <a href="mailto:sumairaawan98@gmail.com">sumairaawan98@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
